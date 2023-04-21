@@ -42,9 +42,9 @@ Classification
 - 4_housing_prices_challenge: Decision Tree, K-Nearest Neighbor, Random Forest and Accuracy Score. 
 
 Regression 
-- 5_housing_prices: Intuition-Based Model, Decision Tree, SGD Regressor, mean_absolute_error, mean_squared_error, mean_absolute_percentage_error, r2_score 
-- 6_housing_prices:
-- 
+- 5_housing_prices: Intuition-Based Model, Decision Tree, SGD Regressor, mean_absolute_error, mean_squared_error, mean_absolute_percentage_error, r2_score. 
+- 6_housing_prices: Principal Component Analysis.
+- housing_prices_kaggle_competition: Decision Tree, K-Best, Random Forest, SGD Regressor.
 - 
 
 ## 2. Project Process
