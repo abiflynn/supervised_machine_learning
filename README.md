@@ -17,55 +17,39 @@ The consultancy wants to use data to be able to answer this question reliably an
 - Using classification create a model to predict whether a house is expensive or not. 
 - Evaluating the model in a classification task, means you can either make a correct prediction or an incorrect one. 
 
-### 1.3. Regression
-
-- Using regression create a model to predict the exact price of a house.
-- Evaluating the model in a regression task, means you will most likely never predict the exact number. I will use performance metrics to determin how close I get to it.
-
-### 1.4. Technical Skills
-
-- Python
-- Pandas
-- Scikit-learn
-- KMeans
-- Matplotlib
-- Seaborn 
-- Machine Learning Classification
-- Machine Learning Regression
-
-### 1.5. housing_prices_models 
-
-Classification 
+**1.2.1. housing_prices_classification**
 - 1_housing_prices: Intuition-Based Model, Decision Tree Model, Pipeline Creation, Grid Search(Best Parameters) and Accuracy Score. 
 - 2_housing_prices: One Hot Encoding, Decision Tree Model, Pipeline Creation, Grid Search(Best Parameters) and Accuracy Score.
 - 3_housing_prices: Ordinal Encoding, Confusion Matrix, F1 Score and Cohen's Kappa Score. 
 - 4_housing_prices_challenge: Decision Tree, K-Nearest Neighbor, Random Forest and Accuracy Score. 
 
-Regression 
+### 1.3. Regression
+
+- Using regression create a model to predict the exact price of a house.
+- Evaluating the model in a regression task, means you will most likely never predict the exact number. I will use performance metrics to determin how close I get to it.
+
+**1.3.1. housing_prices_regression**
 - 5_housing_prices: Intuition-Based Model, Decision Tree, SGD Regressor, mean_absolute_error, mean_squared_error, mean_absolute_percentage_error, r2_score. 
 - 6_housing_prices: Principal Component Analysis.
 - housing_prices_kaggle_competition: Decision Tree, K-Best, Random Forest, SGD Regressor.
-- 
+
+### 1.4. Technical Skills
+
+- Python: Pandas, Matplotlib, Seaborn 
+- Encoding: One Hot Encoding and Ordinal Encoding
+- Machine Learning Algorithms: Logistic Regression, K-Nearest Neighbors (KNN), Decision Trees, Random Forest, K-Best, SGD. 
+
 
 ## 2. Project Process
 
-### 2.1. Explore & Clean the Data
-In Machine Learning there is a common phrase: garbage in, garbage out. Modelling means finding patterns in the training data, which means the model is only going to be as good as the data you have. Exploring the data involves discovering features that do not make sense, or that will not be available the moment you need to use the model for new predictions, detecting inconsistencies and, in general, determining if the data can be trusted —we’ve also referred to this process as data quality. Cleaning refers to the process of transforming the data so that it is digestible by your tools (e.g. dealing with data types).
-
-### 2.2. Data Pre-Processing
-Some Machine Learning models are going to perform much better if you feed them the data in a particular shape. Replacing missing values with an appropriate imputation strategy, scaling the data, selecting/excluding or engineering features… All those transformations are often much more “manual” than what the term “Artificial Intelligence” would suggest —and they usually have a much bigger impact in the performance of the model compared with the next step.
-
-### 2.3. Modelling
-Training a model means finding its parameters. Here’s where “the magic happens”, and at the same time it is the most automatable part of the whole process. Sit back, relax, and let the computer do the heavy lifting: training a model can take from some milliseconds to several days, depending on the data size, the complexity of the model and the hardware doing the computation. Comparing different models with each other (“model selection”) can also be automated to some degree.
-
-### 2.4. Error Analysis
-Machine Learning predictions are never 100% accurate —if they are, you might want to double check whether you made a mistake somewhere. “All models are wrong, but some are useful“. This is the stage where you find out “how much wrong” is your model. For example: if you were classifying images of tumours between benign or malignant, you want to see how many of your errors are false positives (you predicted malignant, it was really benign) or false negatives (you predicted benign, it was malignant), because those errors have very different implications. This stage is crucial for determining the extent to which you can use the model in practice.
-
-### 2.5. Implement your Solution
-Each ML task might have a different implementation, but they usually fall into two main categories: reporting and deployment. Writing a report is typically the outcome of a “one-shot” analysis, where Machine Learning has been used to gain knowledge about a topic (e.g. studying which features that are the most important for determining the price of a house). Deployment, on the other hand, means making the model available for “live” predictions. This might mean to create an API that can take requests (input data) and provides responses (predictions). Most of the time, software engineers will take care of model deployment, but Data Scientists might be involved in the monitoring of the results.
-
-As you can imagine, all these phases are not a simple, single linear process. Following an agile approach to Machine Learning, you want to quickly create and implement a simple solution (a Minimum Viable Product, or MVP), because in doing so you will uncover problems or questions you could not have anticipated. Once the whole process is done in a simple way, you can focus on perfecting it in further iterations. This would be a more realistic Machine Learning workflow:
+1. Reading Data & Create an Intuition-Based Model: Non-Machine Learning Solution that Operates as a Baseline.
+2. Data Pre-processing & Cleaning
+3. Splitting Data into Training and Test Data
+4. Creating Pipeline
+5. Applying Algorithms
+6. Reviewing Accuracy Scores
+7. Using the Model on the Test Data
+8. Revieiwng Final Accuracy Scores. 
 
 
-## 3.  
 
