@@ -36,13 +36,13 @@ The consultancy wants to use data to be able to answer this question reliably an
 ### 1.5. housing_prices_models 
 
 Classification 
-- 1_housing_prices: Intuition-Base Model, Decision Tree Model, Pipeline Creation, Grid Search(Best Parameters) and Accuracy Score. 
+- 1_housing_prices: Intuition-Based Model, Decision Tree Model, Pipeline Creation, Grid Search(Best Parameters) and Accuracy Score. 
 - 2_housing_prices: One Hot Encoding, Decision Tree Model, Pipeline Creation, Grid Search(Best Parameters) and Accuracy Score.
 - 3_housing_prices: Ordinal Encoding, Confusion Matrix, F1 Score and Cohen's Kappa Score. 
-- 4_housing_prices:
+- 4_housing_prices_challenge: Decision Tree, K-Nearest Neighbor, Random Forest and Accuracy Score. 
 
 Regression 
-- 5_housing_prices:
+- 5_housing_prices: Intuition-Based Model, Decision Tree, SGD Regressor, mean_absolute_error, mean_squared_error, mean_absolute_percentage_error, r2_score 
 - 6_housing_prices:
 - 
 - 
