@@ -33,6 +33,11 @@ The consultancy wants to use data to be able to answer this question reliably an
 - Machine Learning Classification
 - Machine Learning Regression
 
+### 1.5. housing_prices_models 
+
+- 1_housing_prices: Intuition-Base Model, Decision Tree Model, Pipeline Creation, Grid Search(Best Parameters) and Accuracy Score. 
+- 
+
 ## 2. Project Process
 
 ### 2.1. Explore & Clean the Data
